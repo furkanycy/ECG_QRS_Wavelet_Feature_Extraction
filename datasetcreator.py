@@ -1,4 +1,4 @@
-from utils import ECGWaveletFeatureExtractor
+from ecgwaveletfeatureextractor import ECGWaveletFeatureExtractor
 
 import os
 
