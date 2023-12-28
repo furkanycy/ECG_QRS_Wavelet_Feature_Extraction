@@ -1,0 +1,1 @@
+This repository provides feature extracting (wavelet transform) to get 2D data from ECG signal and create a dataset (QRS and notQRS). This 2D data can be used for training CNN. The ECG signal used in this repository is from MIT-BIH Arrhythmia database.
