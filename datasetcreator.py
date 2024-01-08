@@ -18,7 +18,7 @@ def process_ecg_file(file_name, wavelets, wavelets_level, sampto, save_path_base
         noise_range (int): Range for noise addition.
         plot_first_10_samples (bool): Flag to plot first 10 samples.
     """
-    data_folder = os.path.join("C:/Users/Melda/Desktop/Okul/2023-2024 Güz/ai/Project1/data", file_name)
+    data_folder = os.path.join(file_name)
     save_path = os.path.join(save_path_base)
     ecg_extractor = ECGWaveletFeatureExtractor(data_folder, sampto, wavelets, wavelets_level)
     ecg_extractor.apply_wavelet_transform()
